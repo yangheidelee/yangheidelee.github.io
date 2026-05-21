@@ -1,11 +1,9 @@
 name: Scrape Talk Locations
 
+# Disabled for now: this Academic Pages template workflow only generates the
+# talk location map from _talks/. The site currently does not use talkmap.
 on:
-  push:
-    paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+  workflow_dispatch:
 
 jobs:
   build:
