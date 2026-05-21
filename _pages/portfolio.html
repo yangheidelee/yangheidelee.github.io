@@ -1,14 +1,23 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "项目经历"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-
+{% comment %}
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
+{% endcomment %}
 
+## 高性能嵌入式RISC-V CPU设计与验证   
+- 关键词：RV32IMF、5-stage、I/DCache、Fetch Queue、Store Buffer、高性能IFU、BPU、Coremark
+
+## 基于OpenLa500核的图像处理SoC设计
+- 关键词：SoC集成与验证、AXI总线、中断控制器设计、FPGA上板调试
+
+## LLM Aided HLS Flow Design 
+- 关键词：LLM辅助HLS流程、Mentor Catapult HLS工具、设计空间探索
