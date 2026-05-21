@@ -5,13 +5,8 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
 
-{% comment %}
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-{% endcomment %}
+
 
 ## 高性能嵌入式 RISC-V CPU 设计与验证
 
