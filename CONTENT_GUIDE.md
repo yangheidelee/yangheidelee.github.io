@@ -92,7 +92,7 @@ _pages/skills.md
 编辑：
 
 ```text
-_pages/portfolio.html
+_pages/portfolio.md
 ```
 
 这个文件主要控制 `/portfolio/` 页面标题和列表前的说明文字。
